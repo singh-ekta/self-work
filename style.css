@@ -23,16 +23,16 @@ color:#fff;
 }
 
 .container{
-    width:100%;
+    width: 85%;
     margin: auto;
   /*  background-color: #f4f4f4;*/
-    padding: 0;
+  /*  padding: 0;*/
 }
 
 
 .ptb-100{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 
 }
 
@@ -40,8 +40,10 @@ color:#fff;
    /*  transform: perspective(200px) rotateZ(360deg);
      box-shadow: 0px 0px 12px 0px #00000085;*/
     box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-      margin-top: 10%;
+    margin-top: 10%;
     margin-left: calc(15% - 30px);
+    width: 100%;
+
 }
 
 .images *:before, *:after {
@@ -70,10 +72,8 @@ color:#fff;
 }*/
 
 .heading{
-    font-size: 85px;
-    font-weight: bold;
-    line-height: 30px;
-    margin-top: 60px;
+   font-size: 38px;
+   font-weight: bold;
 }
 .section{
     background-color: #ebebeb;
@@ -82,29 +82,26 @@ color:#fff;
 
 }
 .text{
-   font-size: 50px;
+    font-size: 15px;
     color: #748182;
-    line-height: 80px;
+    line-height: 25px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
 
 }
 .carousel-heading{
-    font-size: 60px;
-    margin-top: 41px;
-    margin-bottom: 90px;
+    font-size: 25px;
     font-weight: 400;
     float: left;
     position: relative;
-    left: 25px;
+    left: -3px;
 
 }
 .carousel-text{
-    font-size: 40px;
-    color: #748182;
-    line-height: 65px;
+   color: #748182;
+    line-height: 22px;
     font-family: 'Poppins', sans-serif;
-    padding: 0 0 0 129px;
+    padding: 0 30px 0 30px;
     text-align: justify;
 
 }
@@ -113,9 +110,9 @@ color:#fff;
     display: block;
 }
 #icons{
-    font-size: 90px;
+    font-size: 30px;
     float: left;
-    padding: 20px;
+    padding: 17px;
     display: flex;
 }
 
@@ -126,12 +123,10 @@ color:#fff;
     border: none;
     color: #FFFFFF;
     text-align: center;
-    font-size: 48px;
-    padding: 20px;
-    width: 465px;
+    padding: 16px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+  
 }
 .button:hover{
  background: #0b7dda;
@@ -153,7 +148,7 @@ color:#fff;
 }
 
 .button:hover span {
-  padding-right: 95px;
+  padding-right: 35px;
 }
 
 .button:hover span:after {
@@ -167,6 +162,7 @@ color:#fff;
 .other-section{
     background-color: #001D38;;
     clip-path: polygon(100% 0%, 100% 95%, 30% 100%, -447% 0%);
+    padding-bottom: 150px;
 }
 
 .color-white{
@@ -214,7 +210,7 @@ color:#fff;
 
 .text-2 {
   color: #000000;
-  font-size: 66px;
+  font-size: 17px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -238,9 +234,9 @@ color:#fff;
 }
 
 .sub-heading{
-     font-size: 85px;
-    font-weight: bold;
-    color: #ffffff;
+    font-size: 35px;
+    font-weight: 400;
+    color: #c6c9d0;
 
 }
 
