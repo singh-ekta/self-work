@@ -126,6 +126,8 @@ color:#fff;
     padding: 16px;
     transition: all 0.5s;
     cursor: pointer;
+    padding: 10px;
+    margin: 10px;
   
 }
 .button:hover{
@@ -160,7 +162,7 @@ color:#fff;
 
 /*PORTFOLIO  SECTION*/
 .other-section{
-    background-color: #001D38;;
+    background-color: #001D38;
     clip-path: polygon(100% 0%, 100% 95%, 30% 100%, -447% 0%);
     padding-bottom: 150px;
 }
@@ -183,8 +185,13 @@ color:#fff;
   display: block;
   width: 100%;
   height: auto;
+ 
 }
 
+/*.imagess:hover{
+  box-shadow: 0 0 2px black;
+}
+*/
 .overlay {
   position: absolute;
   bottom: 0;
@@ -239,24 +246,88 @@ color:#fff;
     color: #c6c9d0;
 
 }
+.blog-heading{
+  font-weight: bolder;
+  padding: 10px;
 
 
+}
+
+.blog-text{
+    color: #748182;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding: 10px;
+
+}
 
 
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}*/
+
+.contact-info{
+  font-family: "lato", sans-serif;
+  font-weight: 400px;
+  font-size: 13px;
+  line-height: 2.9;
+  list-style: none;
+ 
+}
 
 
+.footer-section{
+  background-color: #000000;
+}
 
 
+.icons-inline{
+  display:flex;
+  list-style: none;
+}
 
 
+.icon-pl{
+  padding: 20px;
+}
+.contact-heading{
+     font-size: 28px;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
+.main-heading{
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+}
 
 
 
